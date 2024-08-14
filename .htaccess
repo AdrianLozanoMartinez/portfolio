@@ -2,7 +2,7 @@
 Options -Indexes
 
 # Configurar el archivo por defecto
-DirectoryIndex portfolio.php
+DirectoryIndex portfolio.html
 
 # Ocultar información del servidor
 ServerSignature Off
