@@ -1,0 +1,8 @@
+# Deshabilitar la visualización de directorios
+Options -Indexes
+
+# Configurar el archivo por defecto
+DirectoryIndex portfolio.php
+
+# Ocultar información del servidor
+ServerSignature Off
