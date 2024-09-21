@@ -1,0 +1,329 @@
+body {
+    background-color: #000; 
+    color: #fff;
+}
+
+.container {
+    background-color: #1a1a1a; 
+    border: 1px solid #333 !important; 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3), 
+                0 8px 30px rgba(255, 255, 255, 0.2) !important; 
+    padding: 20px; 
+}
+
+.row {
+    justify-content: center;
+}
+
+.col-lg-4, .col-md-6, .col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-tabs {
+    width: 100% !important;
+}
+
+.nav-link {
+    color: #fff; 
+}
+
+.nav-link:hover {
+    color: #fff; 
+    text-shadow: 0 0 5px #f8f9fa; 
+}
+
+/*Sobre mí*/
+#aboutMe.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo {
+    width: 5em;
+    margin-bottom: 1em;
+}
+
+.hidde {
+    display: none;
+}
+
+.intro{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#cv, #cvATS{
+    font-size: 1rem;
+    width: 10em;
+    margin-top: 1em;
+}
+
+/*Works and studies*/
+.card-header{
+    margin-top: 2em;
+}
+
+.top{
+    margin-top: 3em;
+}
+
+/*works*/
+.logo{
+    width: 3em;
+    height: auto;
+}
+
+.cp{
+    border-radius: 50%;
+}
+
+.cm, .guadalinfo{
+    border-radius: 5%;
+}
+
+.title{
+    margin-bottom: 0.5em;
+}
+
+.title2{
+    margin-left: 1em;
+}
+
+.topWorks{
+    margin-top: 2em;
+    margin-bottom: -1em;
+}
+
+.topWorks2{
+    margin-bottom: 1em;
+}
+
+.topWorks3{
+    margin-bottom: 1.5em;
+}
+
+.small {
+    font-size: small;
+}
+
+#technician, #public, #securityShow {
+    display: none; 
+}
+
+.alert{
+    text-align: center;
+}
+
+.containerWorks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #1a1a1a; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); 
+    margin-bottom: 1em; 
+}
+
+.button-container button {
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: small; 
+    font-weight: bold;
+}
+
+.btWork{
+    font-size: large;
+}
+
+button i {
+    color: white;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*knowledges*/
+.knowledge-section {
+    margin-bottom: 1.5em;
+}
+
+.knowledge-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin-top: 0.5em;
+}
+
+.knowledge-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1), 0 8px 30px rgba(255, 255, 255, 0.2);
+}
+
+.knowledge-item img {
+    width: 2em;
+    height: 2em;
+}
+
+.knowledge-item span {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.know {
+    width: 25%;
+    /*width: 30%; /*Responsive*/
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+/*Project*/
+.projects-section {
+    padding: 20px;
+    background-color: #1a1a1a; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.project-card {
+    background-color: #333;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card .card-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.project-card .card-text {
+    color: #aaa;
+}
+
+.project-card .btn-outline-light {
+    margin-right: 10px;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #444;
+}
+
+.web{
+    border: 0.1em lightblue solid !important;
+}
+
+.web:hover{
+    box-shadow: 2px 2px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+.logo-project{
+    width: 2em;
+    height: auto;
+}
+
+.colorShadow{
+    box-shadow: 5px 5px 10px 0 rgba(116, 116, 116, 0.923);
+}
+
+.colorShadow:hover{
+    box-shadow: 5px 5px 10px 0 rgba(0, 151, 141, 0.923);
+}
+
+.mus{
+    width: 100%;
+    height: 9em;
+}
+
+.card{
+    min-height: 35em;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 428px) {
+    .know {
+        width: 40%; 
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .know {
+        width: 50%; 
+    }
+
+    .works-responsive{
+        display: flex;
+    }
+
+    .intro{
+        font-size: x-small;
+    }
+
+    .fa {
+        font-size: small;
+    }
+
+    .know {
+        width: 50%; 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title, #works, #studies{
+        font-size: small;
+    }
+    
+    .know {
+        width: 60%; 
+    }
+
+    .button-responsive{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #studies{
+
+    }
+
+}
