@@ -284,16 +284,21 @@ button {
     .button-container {
         flex-direction: column;
     }
-}
 
-@media only screen and (max-width: 376px) {
-    .know {
-        width: 50%; 
+    .nav{
+        margin-top: 11em;
     }
 
     .works-responsive{
         display: flex;
     }
+
+    .card-title{
+        margin-bottom: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 376px) {
 
     .intro{
         font-size: x-small;
@@ -321,9 +326,4 @@ button {
         display: flex;
         flex-direction: column;
     }
-
-    #studies{
-
-    }
-
 }

@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectID = document.getElementById('projectID');
     const tabsWithFullHeight = [aboutMeID, studyID, workID];
     const tabsWithoutFullHeight = [KnowID, projectID];
+    const nav = document.querySelector('.nav');
+
 
     technician.style.display = "none";
     public.style.display = "none";
@@ -74,5 +76,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    //This makes it look on my phone
+    const mediaQuery = window.matchMedia("(max-width: 428px)"); 
+
+    aboutMeID.addEventListener('click', function() {
+            if (mediaQuery.matches) {
+                nav.style.marginTop = '11em';
+            } else {
+                nav.style.marginTop = '0em'; 
+            }
+    });
+
+    studyID.addEventListener('click', function() {
+        if (mediaQuery.matches) {
+            nav.style.marginTop = '0em';
+        } else {
+            nav.style.marginTop = '0em'; 
+        }
+    });
+
+    workID.addEventListener('click', function() {
+        if (mediaQuery.matches) {
+            nav.style.marginTop = '3em';
+        } else {
+            nav.style.marginTop = '0em'; 
+        }
+    });
     
 });
