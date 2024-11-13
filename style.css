@@ -276,7 +276,7 @@ button {
 }
 
 /*Responsive*/
-@media only screen and (max-width: 428px) {
+/* @media only screen and (max-width: 428px) {
     .know {
         width: 40%; 
     }
@@ -296,9 +296,9 @@ button {
     .card-title{
         margin-bottom: 1.5em;
     }
-}
+} */
 
-@media only screen and (max-width: 376px) {
+/* @media only screen and (max-width: 376px) {
 
     .intro{
         font-size: x-small;
@@ -311,8 +311,8 @@ button {
     .know {
         width: 50%; 
     }
-}
-
+} */
+/* 
 @media only screen and (max-width: 320px) {
     .title, #works, #studies{
         font-size: small;
@@ -326,4 +326,4 @@ button {
         display: flex;
         flex-direction: column;
     }
-}
+} */
