@@ -76,6 +76,11 @@ body {
     height: auto;
 }
 
+.logo2{
+    width: 2em;
+    height: auto;
+}
+
 .cp{
     border-radius: 50%;
 }
