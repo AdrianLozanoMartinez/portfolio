@@ -81,6 +81,16 @@ body {
     height: auto;
 }
 
+.logo3{
+    width: 8em;
+    height: auto;
+    border-radius: 5%;
+}
+
+.logo4{
+    border-radius: 5%;
+}
+
 .cp{
     border-radius: 50%;
 }
