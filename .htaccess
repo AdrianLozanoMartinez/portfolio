@@ -1,8 +1,0 @@
-# Deshabilitar la visualización de directorios
-Options -Indexes
-
-# Configurar el archivo por defecto
-DirectoryIndex portfolio.html
-
-# Ocultar información del servidor
-ServerSignature Off
