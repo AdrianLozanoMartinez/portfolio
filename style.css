@@ -92,7 +92,7 @@ body {
 }
 
 .logo5{
-    width: 4em;
+    width: 4em !important;
     height: auto;
 }
 
